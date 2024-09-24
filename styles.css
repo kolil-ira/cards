@@ -1,0 +1,124 @@
+* {
+    font-family: "Poppins", sans-serif;
+    
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: antiquewhite;
+    border: black;
+    
+}
+.tag {
+    font-size: 0.9rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card {
+    background: white;
+    display:flex;
+    width: 150px;
+    margin-top: 40px;
+}
+#carimage{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 143px;
+    width: 2rem;
+    height: 46vh;
+    
+}
+.p-details {
+    background-color: #62c256;
+    color: black;
+    padding: 20px;
+    margin-top: 5px;
+}
+.product-image img {
+    width: aut;
+}
+.stars {
+    color: yellow;
+    font-size: 1em;
+}
+.colors-price {
+    display: inline-block;
+    align-items: row;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.colors {
+    display: flex;
+    width: rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#red {
+    background: red;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: auto;
+}
+#black {
+    background: black;
+    width: 10%;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: auto;
+    
+}
+#grey {
+    background: gray;
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+}
+.price {
+    display:"";
+    width: 12rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.old-price {
+    font-weight: 10;
+}
+button {
+    cursor: pointer;
+}
+#button {
+    background-color: #256851;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white; /* Added color for button text */
+}
+.w-button {
+    background-color: #fff;
+}
+.feedback {
+    display: none; /* Consider making this visible based on your logic */
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+#button:hover {
+    background-color: #444; /* Example hover effect */
+}
